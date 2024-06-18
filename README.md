@@ -1,4 +1,4 @@
-# Teaching Llama 3 how to query your Database
+# Tune Llama 3 for a 95% Accuarate SQL Agent with Lamini
 
 This repo and notebook `meta-lamini.ipynb` demonstrate how to tune Llama 3 to generate valid SQL queries to answer your questions.
 
