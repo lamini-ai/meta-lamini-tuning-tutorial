@@ -1,5 +1,3 @@
-import random
-
 import jsonlines
 
 from util.make_llama_3_prompt import make_llama_3_prompt
@@ -22,7 +20,5 @@ def load_training_data(args, make_question):
 
 
 def get_dataset(args, make_question):
-    dataset = list(load_training_data(args, make_question)) * 10
-    random.seed(42)
-    random.shuffle(dataset)
+    dataset = list(load_training_data(args, make_question))
     return dataset
