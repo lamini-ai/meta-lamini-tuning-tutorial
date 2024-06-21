@@ -1,6 +1,6 @@
-# Tune Llama 3 for a 95% accurate SQL model with Lamini
+# Tune Llama 3 for text-to-SQL and improve accuracy from 30% to 95%
 
-This repo and notebook `meta-lamini.ipynb` demonstrate how to tune Llama 3 to generate valid SQL queries with 95% accuracy.
+This repo and notebook `meta-lamini.ipynb` demonstrate how to tune Llama 3 to generate valid SQL queries and improve accuracy from 30% to 95%.
 
 In this notebook we'll be using Lamini, and more specifically, Lamini Memory Tuning. 
 
